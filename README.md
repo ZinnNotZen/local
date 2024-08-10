@@ -1,7 +1,17 @@
-Bike Share Project
+### Bike Share Project
+### Date created
+Project created on: February 25, 2023
+README file created on: Aug 9, 2024
+
+### Suggested Requirements
+- Python 3.11 or above
+- pandas, numpy, and time libraries
+  
+### Files used
 This project imports data from the .csv files "chicago.csv", "new_york_city.csv", and "washington.csv" to gather information about a bike share program. 
 The chicago.csv and the new_york_city.csv will include details about the users including gender, birth date, and type. The will also include data about the bie rentals including:
   rental start hour and day, rental start location and end location.
+### Description
 The data is processed through multiple definitions defined in this file, inlcuding:
   1. get_filters() will ask the user to specify a city, month, and day to analyze. It will then print the city, month, and day that the user requested.
   2. load_data() will load the data for the specified city and filters by month and day. It then will return a Pandas DataFrame containing city data filtered by month and day.
